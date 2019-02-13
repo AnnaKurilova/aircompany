@@ -1,0 +1,131 @@
+.header {
+    background: #4b73b5;
+    background-origin: padding-box;
+   
+    
+}
+
+.header .container {
+    position: relative;
+    height: 77px;
+    display: flex;
+}
+
+.header__col {
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+}
+
+.header__col--left {
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.header__col--right {
+    justify-content: flex-end;
+    font-weight: bold;
+    flex-wrap: wrap;
+    text-align: end;
+    line-height: 1;
+}
+
+.header__logo {
+   display: inline-block;
+   padding-bottom: 20px;
+  
+}
+
+
+.contacts {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 21px;
+    font-weight: bold;
+    width: 200px;
+    font-style: normal;
+}
+
+
+.contacts__phone:hover {
+    text-decoration: none;
+}
+
+.work {
+    color: #d4dbea;
+    font-size: 14px;
+    position: relative;
+    text-decoration: underline;
+
+}
+
+.work:hover {
+    color: white;
+}
+.work:hover .dropdown {
+    left: -100%;
+    background: white;
+    
+}
+    
+
+
+
+.dropdown {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 165px;
+    height: 75px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(20%);
+    z-index: 10;
+    left: -9999px;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px #d8d8d8; 
+    padding: 10px;
+}
+   
+
+.dropdown:before {
+    content: "";
+    display: block;
+    height: 30px;
+    top: -29px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.triangle {
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    border-left: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+    margin-left: -20px;
+}
+
+.dropdown__text {
+    line-height: 1.5;
+}
+
+.dropdown__text--1 {
+    font-size: 14px;
+    font-style: bold;
+    color: #4b73b5;
+    text-align: center;
+}
+
+.dropdown__text--2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}

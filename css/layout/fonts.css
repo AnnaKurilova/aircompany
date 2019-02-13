@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-bold_0-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-bold_0-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-light_0-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-light_0-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+

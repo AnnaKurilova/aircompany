@@ -1,0 +1,457 @@
+.page .container {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.page-content-wrapper {
+   width: 80%;
+   margin-right: 16px;
+   
+   
+}
+.page {
+   padding-right: 35px; 
+}
+
+.page-content {
+    color: #221f1f;  
+}
+
+.airplane__pic-img {
+    margin-top: 15px;
+}
+
+.comments {
+    margin-bottom: 30px;
+}
+.comments__list {
+    list-style-type: none; 
+    
+}
+
+.comments__item {
+    display: flex;
+}
+
+.comments__list li {
+    padding: 33px 25px 17px 0;
+
+}
+
+.comments__img {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.comments__content {
+    width: 80%;
+    flex: 1;
+   
+}
+
+.comments__title {
+    font-size: 49px;
+    font-weight: bold; 
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+
+.comments__name {
+    font-size: 18px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+
+
+
+.comments__item {
+    display: flex;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.comments__item:last-child {
+    border: 0;
+}
+
+
+.news__name {
+    font-size: 18px;
+    font-weight: bold; 
+    margin-bottom: 15px;
+}
+
+  
+.news {
+    margin-bottom: 20px;
+}
+
+
+.news__item {
+    display: flex;
+}
+
+.news__list li {
+    padding: 35px 28px 15px 0;
+    
+}
+
+.news__img {
+    width: 20%;
+    margin-right: 20px; 
+}
+
+.news__content {
+    flex: 1;
+    width: 80%;
+}
+.news__content-text {
+    min-width: 650px;
+    font-size: 18px;
+    font-weight: 300; 
+    line-height: 1.5;
+    min-width: 650px;
+}
+
+.news__item {
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.news__item:last-child {
+    border: 0;
+}
+.news__list {
+    list-style-type: none;
+    display: table;
+}
+
+.news__title {
+    font-size: 49px;
+    font-weight: bold; 
+    margin-bottom: 70px;
+}
+
+.date {
+    margin-bottom: 10px;
+    color: #979797;
+    font-size: 14px;
+    font-style: 300; 
+}
+
+.comments__img-photo, .news__img-photo {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    display: block;
+}
+
+.team__list {
+    list-style-type: none;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap; 
+}
+.team__list li {
+    margin-bottom: 50px;
+    padding: 0px 0px 0px 15px;
+}
+.team__item {
+    width: 250px;
+    min-height: 370px;
+}
+
+.team__img {
+border-radius: 50%;
+width: 160px;
+height: 160px;
+overflow: hidden;
+position: relative;
+display: inline-block;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.team__img-photo {
+    background-color: rgba(128, 155, 197, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.team__text {
+    font-size: 14px;
+    font-weight: 300; 
+
+}
+
+.team__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team__img-name {
+    font-size: 24px;
+    font-weight: 700px;
+    color: #fff;
+    max-width: 100px;
+}
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b73b5;
+}
+
+.team__content {
+    line-height: 1.5;
+    min-width: 270px;
+    padding-top: 20px;
+}
+
+.partners__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.partners__img {
+    filter: grayscale(100%);
+    display: inline-block;
+}
+.partners__img:hover {
+   filter: grayscale(0%); 
+}
+
+.partners__list li {
+    margin-left: 40px;
+    height: 80px;
+    width: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.text p {
+    font-size: 18px;
+    font-weight: 300; 
+    line-height: 1.5;
+    min-width: 700px;
+}
+
+.menu__icon {
+    margin-right: 15px;
+    
+}
+
+.partners__section h2 {
+    margin-bottom: 55px;
+}
+
+
+
+.tarifs__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 63px;
+}
+
+.tarifs__item {
+    
+    width: 33.3%;
+    width: 250px;
+    min-height: 455px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+.tarifs__item:nth-child(2) {
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    
+}
+
+.tarifs {
+    margin-bottom: 45px;
+}
+
+.tarifs__content {
+    text-align: center;
+    line-height: 2;
+    }
+
+.title {
+    font-size: 49px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+.tarifs__content h3 {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #212121;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+.tarifs__content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    padding-top: 11px;
+    line-height: 1.8;
+}
+
+.tarifs__plan {
+    padding-left: 55px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    list-style: disc;
+}
+
+.tarifs__price {
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    
+}
+
+.tarifs__icon {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    height: 70px;
+    width: 70px;
+    background: #4b73b5;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.tarifs__price {
+    font-size: 54px;
+    font-style: normal;
+    color: #212121;
+}
+
+.tarifs__price {
+    font-size: 54px;
+}
+
+.tarifs__subscript {
+    font-size: 30px;
+}
+
+
+
+.switcher {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+    
+
+
+
+.switcher__link {
+    color: black;
+}
+
+.switcher__link, .switcher__link-next, .switcher__link-prev {
+    padding-top: 5px;  
+
+}
+
+.switcher__link:hover {
+    color: #1c5bc3;
+}
+
+.switcher__paginator a {
+    padding: 5px 8px;
+    display: block;
+}
+    
+.switcher__link--active {
+    height: 25px;
+    width: 25px;
+    background: #4b73b5;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 5px;
+}
+    
+    
+.switcher__display {
+    font-size: 14px;
+    font-style: 300; 
+    margin-right: 10px;
+    padding-top: 5px;  
+}
+    
+.switcher__pages {
+    padding-left: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold; 
+    display: flex;
+    
+}
+    
+
+.questions {
+    padding: 50px 0 45px;
+    margin-bottom: 58px;
+    background: url("../../img/comments/background.jpg");
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+
+.questions__text {
+   
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    bottom: 45px;
+    line-height: 1.5;
+    width: 625px;
+    margin: 0 auto;
+}
+
+.questions__link {
+    color: #fff;
+    font-weight: bold;
+}  
+.questions__link:hover {
+    text-decoration: underline;
+
+}
+
+.questions__contacts__phone {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
